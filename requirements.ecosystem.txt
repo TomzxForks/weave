@@ -3,8 +3,8 @@ openai>=1.0.0
 matplotlib!=3.5,>3
 shap>=0.41.0
 xgboost>=1.7.3
-torch>=1.13.1
-torchvision>=0.14.1
+torch>=1.13.1 --index-url https://download.pytorch.org/whl/cpu
+torchvision>=0.14.1 --index-url https://download.pytorch.org/whl/cpu
 bertviz>=1.4.0
 datasets>=2.9.0
 transformers<4.21
